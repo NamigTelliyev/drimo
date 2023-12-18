@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body main #secThree {
+  background-color: #528fb8;
+  padding: 100px 0;
+}
+body main #secThree .secContentOne .contentOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body main #secThree .secContentOne .contentOne h2 {
+  font-size: 35px;
+  color: white;
+}
+body main #secThree .secContentOne .contentOne .line {
+  width: 60px;
+  height: 2px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+body main #secThree .secContentOne .contentOne p {
+  font-size: 18px;
+  color: white;
+  width: 570px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+body main #secThree .secContentTwo .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body main #secThree .secContentTwo .content .icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  color: #528fb8;
+  font-size: 30px;
+}
+body main #secThree .secContentTwo .content .textContent p {
+  font-size: 20px;
+  color: white;
+}
+body main #secThree .secContentTwo .content .textContent h2 {
+  font-size: 20px;
+  color: white;
+}
+body main #secFour {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secFour .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+body main #secFour .secContent .content {
+  position: relative;
+  padding: 50px 0;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+body main #secFour .secContent .content i {
+  font-size: 80px;
+  color: #339de4;
+}
+body main #secFour .secContent .content p {
+  width: 280px;
+  font-weight: 600;
+  color: gray;
+  text-align: center;
+  font-size: 18px;
+}
+body main #secFour .secContent .content h2 {
+  color: gray;
+  font-size: 22px;
+  font-weight: 400;
+}
+body main #secFour .secContent .content h3 {
+  font-size: 16px;
+  color: gray;
+  font-weight: 400;
+}
+body main #secFour .secContent .content img {
+  position: absolute;
+  top: 370px;
+}
+body main #secFive {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body main #secFive .secContentOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body main #secFive .secContentOne .contentOne {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body main #secFive .secContentOne .contentOne h2 {
+  font-size: 40px;
+}
+body main #secFive .secContentOne .contentOne .line {
+  background-color: black;
+  width: 70px;
+  height: 2px;
+}
+body main #secFive .secContentOne .contentOne p {
+  font-size: 18px;
+}
+body main #secFive .secContentTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  width: 100%;
+}
+body main #secFive .secContentTwo .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body main #secFive .secContentTwo .content h2 {
+  font-size: 20px;
+}
+body main #secFive .secContentTwo .content p {
+  font-size: 16px;
+  width: 75%;
+  color: gray;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+body footer #footerSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(128, 128, 128, 0.24);
+}
+body footer #footerSec .footerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer #footerSec .footerContent .content {
+  padding-top: 50px;
+}
+body footer #footerSec .footerContent .content p {
+  font-size: 20px;
+}
